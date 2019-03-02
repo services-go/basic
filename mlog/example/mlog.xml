@@ -1,0 +1,8 @@
+<seelog minlevel="debug">
+    <outputs formatid="common">
+        <rollingfile type="size" filename="/var/log/services-go/test.log" maxsize="1000000" maxrolls="15"/>
+    </outputs>
+    <formats>
+        <format id="common" format="%Date %Time [%LEV] [%File:%Line] %Msg%n" />
+    </formats>
+</seelog>
