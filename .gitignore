@@ -1,0 +1,15 @@
+.buildpath
+.project
+.settings
+*.pyc
+*.pyo
+.project
+.pydevproject
+*.sh
+#
+pkg/
+bin/*
+*.tar.*
+app/debug
+mlog/example/*.exe
+
